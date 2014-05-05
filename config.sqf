@@ -29,7 +29,14 @@ cityList = compileFinal str
 	["Town_17", 150, "Oreokastro"],
 	["Town_18", 100, "Dump"],
 	["Town_19", 125, "Negades"],
-	["Town_20", 100, "Frini"]
+	["Town_20", 100, "Frini"],
+	["Town_21", 200, "Rodopoli"],
+	["Town_22", 150, "Dorida"],
+	["Town_23", 200, "Panagia"],
+	["Town_24", 100, "Gatolia"],
+	["Town_25", 150, "Kore"],
+	["Town_26", 150, "Feres"],
+	["Town_27", 200, "Kalochori"]
 ];
 
 militarylist = compileFinal str
@@ -79,7 +86,7 @@ config_refuel_amounts = compileFinal str
 config_territory_markers = compileFinal str
 [
 	["TERRITORY_THRONOS_CASTLE", "Thronos Castle", 300, "CASTLE"],
-	//["TERRITORY_KASTRO_CASTLE", "Kastro Castle", 300, "CASTLE"],
+	["TERRITORY_KASTRO_CASTLE", "Kastro Castle", 300, "CASTLE"],
 	["TERRITORY_SW_AIRFIELD", "Southwest Airfield", 300, "AIRFIELD"],
 	["TERRITORY_MAIN_AIRBASE_SW", "Altis Airport (SW)", 200, "AIRBASE"],
 	["TERRITORY_MAIN_AIRBASE_CENTER", "Altis Airport (Center)", 200, "AIRBASE"],
@@ -90,7 +97,8 @@ config_territory_markers = compileFinal str
 	["TERRITORY_SALTFLATS_AIRFIELD", "Saltflats", 300, "AIRFIELD"],
 	["TERRITORY_WEST_POWER_PLANT", "West Power Plant", 300, "POWER"],
 	["TERRITORY_CENTER_POWER_PLANT", "Center Power Plant", 300, "POWER"],
-	["TERRITORY_EAST_POWER_PLANT", "East Power Plant", 300, "POWER"],
+	["TERRITORY_EAST_POWER_PLANT", "East Power Plant Section 1", 300, "POWER"],
+	["TERRITORY_EAST_POWER_PLANT_1", "East Power Plant Section 2", 300, "POWER"],
 	["TERRITORY_IRAKLIA_RUINS", "Iraklia Ruins", 300, "RUINS"],
 	["TERRITORY_ARTINARKI_RUINS", "Artinarki Ruins", 300, "RUINS"],
 	["TERRITORY_MOLOS_TRANSMITTER", "Molos Transmitter", 300, "TRANSMITTER"],
@@ -98,6 +106,9 @@ config_territory_markers = compileFinal str
 	["TERRITORY_DIDYMOS_TRANSMITTER_2", "Didymos Transmitter Two", 300, "TRANSMITTER"],
 	["TERRITORY_MAGOS_TRANSMITTER", "Magos Transmitter", 300, "TRANSMITTER"],
 	["TERRITORY_PYRSOS_TRANSMITTER", "Pyrsos Transmitter", 300, "TRANSMITTER"],
-	["TERRITORY_MILITARY_RESEARCH", "Telos Research Facility", 300, "MILITARY"]
+	["TERRITORY_MILITARY_RESEARCH", "Telos Research Facility", 300, "MILITARY"],
+	["TERRITORY_NE_TRANSMITTER", "Northeast Transmitter", 300, "TRANSMITTER"],
+	["TERRITORY_SE_TRANSMITTER_1", "Southeast Transmitter Section 1", 300, "TRANSMITTER"],
+	["TERRITORY_SE_TRANSMITTER_2", "Southeast Transmitter Section 2", 300, "TRANSMITTER"]
 ];
 
